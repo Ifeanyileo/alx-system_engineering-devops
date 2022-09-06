@@ -1,0 +1,4 @@
+#!/bin/bash
+tr `echo {a..z} | tr -d ''` `echo {n..n} $(echo {a..m}) | tr -d ''` | tr `echo {A..M} | tr -d ''` `echo {N..Z} $(echo {A..M}) | tr -d ''`#!/bin/bash
+tr `echo {a..z} | tr -d ''` `echo {n..n} $(echo {a..m}) | tr -d ''` | tr `echo {A..M} | tr -d ''` `echo {N..Z} $(echo {A..M}) | tr -d ''`#!/bin/bash
+tr `echo {a..z} | tr -d ''` `echo {n..n} $(echo {a..m}) | tr -d ''` | tr `echo {A..M} | tr -d ''` `echo {N..Z} $(echo {A..M}) | tr -d ''`
